@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Baloo 2", system-ui;
+}
+
+body{
+    background: linear-gradient(135deg, #001f3f, #003b75 50%, #004080, #0055ff); 
+    color: white;
+    min-height: 100vh;
+}
+
+.todo-list{
+    max-width: 600px;
+    min-height: 400px;
+    margin: 0px auto;
+    color: white;
+    margin-top: 100px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.main-todo-list{
+    width: 100%;
+    min-height: 200px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.add-todo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.todo-list-grid{
+    display: grid;
+    grid-template-columns: 4fr 2fr 1fr;
+    gap: 5px;
+}
+
+.add-todo input{
+    height: 100%;
+    border: none;
+    color: white;
+    box-shadow: 0px 0px 5px 1px #001f3f;
+    padding: 10px;
+    outline: none;
+    background-color: #004080;
+    border-radius: 5px;
+    font-weight: 600;
+
+}
+
+.add-todo input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.todo-add-button{
+    height: 100%;
+    align-items: center;
+}
+
+.todo-add-button button{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(51, 139, 51);
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 17px;
+    box-shadow: 0px 0px 8px 1px rgb(51, 139, 51);
+}
+
+.list{
+    width: 81%;
+    justify-content: center;
+    align-items: center;
+    line-break: auto;
+    background-color: #6d97eb;
+    border-radius: 5px;
+    color: white;
+    min-height: 50px;
+}
+
+.todo-delete-button button{
+    border-radius: 5px;
+    height: 100%;
+    border: none;
+    color: white;
+    background-color: rgb(247, 82, 82);
+    cursor:pointer;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 12px;
+    box-shadow: 0px 0px 8px 1px rgb(247, 82, 82);
+}
+
+.todo-title{
+    padding-left: 10px;
+}
+
+.todo-date{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.lists{
+    margin: 0px;
+    padding: 0px;
+}
